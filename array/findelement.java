@@ -1,7 +1,7 @@
 public class findelement{
   public static void main(String[]args){
 
-    // findelement
+    // finding element
     int element = 5;
     int num =0;
     int [] arr = {1,2,4,7,5};
