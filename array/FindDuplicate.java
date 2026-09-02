@@ -1,6 +1,8 @@
 public class FindDuplicate{
   public static void main(String[]args){
+ 
 
+    //duplicate value to compare
     int repeat = 0;
 
     int [] arr = {1,2,3,4,4,5};
