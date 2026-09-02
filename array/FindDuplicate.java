@@ -9,6 +9,7 @@ public class FindDuplicate{
     for(int i=0; i<arr.length; i++){
       for(int j=i+1; j<arr.length; j++){
 
+        // condition to check duplicate value
       if(arr[i]==arr[j]){
         repeat = arr[i];
         break;
