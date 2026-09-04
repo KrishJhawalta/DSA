@@ -31,6 +31,12 @@ public class SwapElement {
         int temp =arr[0];
         arr[0] = arr[4];
         arr[4] = temp;
+        temp++;
+
+        for(int i=0; i<arr.length; i++){
+            
+            System.out.print(arr[i] + " ");
+        }
 
     }
     
