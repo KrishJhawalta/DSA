@@ -31,7 +31,7 @@ public class SwapElement {
         int temp =arr[0];
         arr[0] = arr[4];
         arr[4] = temp;
-        temp++;
+        temp++; // temp = temp +1; it will select next element in the array
 
         for(int i=0; i<arr.length; i++){
             
