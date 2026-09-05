@@ -4,7 +4,7 @@ public class SearchElement{
 
     // Finding SearchElement 
     Scanner sc = new Scanner(System.in);
-    System.out.print("Enter the element to search");
+    System.out.print("Enter the element to search: ");
     int target = sc.nextInt();
     int [] arr = {1,2,3,4,5};
 
