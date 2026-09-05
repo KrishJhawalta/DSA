@@ -9,7 +9,7 @@ public class EvenOddCount{
       if(arr[i]%2==0){
         even++;           // counts  even number
       }else{
-        odd++          // counts odd number
+        odd++;          // counts odd number
       }
     }
     System.out.println("Even: "+even);
