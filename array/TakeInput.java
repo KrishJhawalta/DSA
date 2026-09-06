@@ -5,6 +5,7 @@ public class TakeInput{
     // Scanner class
     Scanner sc = new Scanner(System.in);
 
+    //input size of array
     int n = sc.nextInt();
     System.out.print("Enter inputs: ");
     int [] arr = new int[n];
