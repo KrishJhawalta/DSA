@@ -1,6 +1,7 @@
 public class EvenOddCount{
   public static void main(String[]args){
-
+ 
+    // even and odd count
     int even = 0;
     int odd = 0;
     
