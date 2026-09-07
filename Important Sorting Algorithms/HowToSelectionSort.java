@@ -1,4 +1,4 @@
-package Important Sorting Algorithms;
+
 
 public class HowToSelectionSort {
     public static void main(String[]args){
