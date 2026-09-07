@@ -13,7 +13,12 @@ public class HowToSelectionSort {
                 if(arr[j]<arr[min]){
                     min = j;
                 }
+
             }
+
+            // swap the minimum element with first element
+            int temp = arr[min];
+            
         }
     }
     
