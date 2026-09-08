@@ -10,17 +10,23 @@ public class HowToSelectionSort {
 
             int min =i;
 
+            // loops for selecting array next elements
             for(int j=i+1; j<arr.length; j++){
 
+                // comparing elements
                 if(arr[min] > arr[j]){
                     min = j;
                 }
+
             }
+
+            // printin
 
             int temp = arr[i];
             arr[i] = arr[min];
             arr[min] = temp;
         }
+        System.out.println[arr[i]];
 
        
 
