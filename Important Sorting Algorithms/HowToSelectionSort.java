@@ -3,31 +3,23 @@ public class HowToSelectionSort {
 
         // array 
         int [] arr = {64, 25, 12, 22, 11};
+        int n = arr.length;
 
         // loop for full array 
-    
-        for(int i=0; i<arr.length-1; i++){
 
-            int min =i;
+        for(int i=0; i<n-1; i++){
+            for(int j=i+1; j<n; j++){
 
-            // loops for selecting array next elements
-            for(int j=i+1; j<arr.length; j++){
+                if(arr[i]>arr[j]){
 
-                // comparing elements
-                if(arr[min] > arr[j]){
-                    min = j;
+                    // swap 
+                    int temp = arr[i];
+                    arr[i] = arr[j];
+                    arr[j] = temp;
                 }
-
             }
-
-            // printin
-
-            int temp = arr[i];
-            arr[i] = arr[min];
-            arr[min] = temp;
         }
-        System.out.println[arr[i]];
-
+    
        
 
 
