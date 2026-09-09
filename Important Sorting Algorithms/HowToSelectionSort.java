@@ -13,9 +13,9 @@ public class HowToSelectionSort {
                 if(arr[i]>arr[j]){
 
                     // swap 
-                    int temp = arr[i];
-                    arr[i] = arr[j];
-                    arr[j] = temp;
+                    int temp = arr[i];      // temp = a 
+                    arr[i] = arr[j];        // a = b
+                    arr[j] = temp;          // b = temp
                 }
             }
         }
