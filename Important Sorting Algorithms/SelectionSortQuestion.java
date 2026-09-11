@@ -5,8 +5,11 @@ public class SelectionSortQuestion {
         // array
         int [] arr = {2,4,5,2,55,8,0};
 
+        // loop statement
         for(int i=0; i<arr.length-1; i++){
             for(int j=i+1; j<arr.length; j++){
+
+                // condition
                 if(arr[i]>arr[j]){
 
                     int temp = arr[i];
