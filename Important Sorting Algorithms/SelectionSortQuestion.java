@@ -1,7 +1,6 @@
 public class SelectionSortQuestion {
     public static void main(String[]args){
 
-
         // array
         int [] arr = {2,4,5,2,55,8,0};
 
