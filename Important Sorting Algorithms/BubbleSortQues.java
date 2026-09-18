@@ -34,6 +34,8 @@ public class BubbleSortQues{
                 }
             }
         }
+
+        //Printing values
      
             System.out.println("Array is sorted in " + swaps + " swaps");
             System.out.println("First element is: "+ arr[0]);
