@@ -17,7 +17,7 @@ public class BubbleSortQues{
         // System.out.print(arr[k] + " ");}
 
 
-        // Q2: 
+        // Q2: swapping
 
         int [] arr ={6,4,1};
         int swaps = 0;
