@@ -4,6 +4,9 @@ public class passbyref{
         int [] arr = {1,2,3,4,5};
         int i=0;
         int j=arr.length-1;
+
+
+        // loop
         while(i<j){
             int temp = arr[i];
             arr[i] = arr[j];
