@@ -5,7 +5,8 @@ public class passbyref{
         // array 
         int [] arr = {1,2,3,4,5};
         int i=0;
-        int j=arr.length-1;
+        int k = arr.length;
+        int j=k-1;
 
 
         // loop
