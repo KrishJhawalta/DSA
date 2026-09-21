@@ -6,6 +6,8 @@ public class findelement{
     int num =0;
     int [] arr = {1,2,4,7,5};
 
+
+    //loop 
     for(int i=0; i<arr.length; i++){
       if(element==arr[i]){
         System.out.println("Present");
