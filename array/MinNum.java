@@ -11,6 +11,6 @@ public class MinNum{
         num = arr[i];
       }
     }
-    System.System.out.println(num);
+    System.out.println(num);
   }
 }
