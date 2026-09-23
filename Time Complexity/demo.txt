@@ -1,5 +1,0 @@
-Time complexity != time taken (X)
-time complexity is a measure of the amount of time an algorithm takes to run as a function of the length of its input.
-
-Time complexity = Big O Notation (O)
-// Time increases as the number of input size increases
