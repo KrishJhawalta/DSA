@@ -10,7 +10,6 @@ public class MaxSum{
       if(arr[i]>max){
         max = arr[i];
       }
-
     }
     // printing 
   System.err.println(max);
