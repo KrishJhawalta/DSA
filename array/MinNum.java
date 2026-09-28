@@ -1,7 +1,6 @@
 public class MinNum{
   public static void main(String[]args){
 
-
     // Minimum element
 
     int [] arr = {10,20,30,40};
