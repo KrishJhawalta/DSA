@@ -12,7 +12,6 @@ public class Q1 {
                max = arr[i];
            }
        }
-
         System.out.println(max);
     }
 }
