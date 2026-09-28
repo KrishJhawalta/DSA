@@ -3,10 +3,10 @@ public class MinNum{
 
 
     // Minimum element
-    int num = arr[0];
 
     int [] arr = {10,20,30,40};
-    for(int i=0; i<arr.length; i++){
+      int num = arr[0];
+      for(int i=0; i<arr.length; i++){
       if(arr[i]<num){
         num = arr[i];
       }
@@ -14,3 +14,17 @@ public class MinNum{
     System.out.println(num);
   }
 }
+
+/*
+🟢 Level 1 — Must know
+Find largest element
+Find smallest element
+Find sum of elements
+Find average
+Count even/odd
+Search an element (Linear Search)
+Reverse an array
+Check if array is sorted
+Find second largest
+Count frequency of an element
+ */
