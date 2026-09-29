@@ -8,7 +8,6 @@ public class passbyref{
         int k = arr.length;
         int j=k-1;
 
-
         // loop
         while(i<j){
 
