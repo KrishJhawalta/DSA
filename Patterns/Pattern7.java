@@ -22,7 +22,7 @@ public class Pattern7 {
 
                 System.out.print(" ");}
 
-            for(int s=1; s<=2*i+1; s++){
+            for(int s=1; s<=2*i-1; s++){   //
                   System.out.print("*");
 
             }
