@@ -20,7 +20,7 @@ public class Pattern8 {
             System.out.print(" ");
         }
 
-        for(int s=0; s<)
+
 
 
 
