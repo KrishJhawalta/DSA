@@ -4,7 +4,7 @@
  * 22
  * 333
  * 4444
- * 
+ *
  */
 public class Pattern4 {
 
@@ -17,6 +17,6 @@ public class Pattern4 {
             System.out.println();
         }
 
-        
+
     }
 }
