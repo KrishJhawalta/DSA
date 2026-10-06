@@ -18,9 +18,13 @@ public class QuickRevision {
 
 
         // reverse traversing
-        for(int i=arr.length-1; i>=0; i--){
-            System.out.println(arr[i]);
-        }
+//        for(int i=arr.length-1; i>=0; i--){
+//            System.out.println(arr[i])};
+
+//        // for every second element
+//        for(int i=0; i<arr.length; i+=2){
+//            System.out.println(arr[i]);
+//        }
 
 
     }
