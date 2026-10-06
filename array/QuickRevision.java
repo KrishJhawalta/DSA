@@ -11,13 +11,16 @@ public class QuickRevision {
         //     System.out.println(arr[i]);
         // }
 
-        // advance method for traversing ( used only reading ) 
+        // advance method for traversing ( used only reading )
         // for(int x: arr){
         //     System.out.println(x);
         // }
 
-        
 
+        // reverse traversing
+        for(int i=arr.length-1; i>=0; i--){
+            System.out.println(arr[i]);
+        }
 
 
     }
