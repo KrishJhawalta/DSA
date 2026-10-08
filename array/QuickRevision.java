@@ -40,10 +40,7 @@ for(int i=0; i<=arr.length; i++){
     if(arr[i]>sum){
         sum = arr[i];
     }
-
 }System.out.println(sum);
-
-
 
     }
 }
