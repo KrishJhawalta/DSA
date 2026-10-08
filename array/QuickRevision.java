@@ -27,14 +27,21 @@ public class QuickRevision {
 //        }
 
 // searching an element
-int target =3;
+// int target =3;
+// for(int i=0; i<=arr.length; i++){
+//     if(target==arr[i]){
+//         System.out.println("Target found at index: "+i);
+//     }
+// }
+
+// finding maximum element
+int sum =arr[0];
 for(int i=0; i<=arr.length; i++){
-    if(target==arr[i]){
-        System.out.println("Target found at index: "+i);
+    if(arr[i]>sum){
+        sum = arr[i];
     }
-}
 
-
+}System.out.println(sum);
 
 
 
