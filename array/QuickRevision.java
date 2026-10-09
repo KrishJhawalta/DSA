@@ -34,7 +34,7 @@ public class QuickRevision {
 //     }
 // }
 
-// finding maximum element
+// // finding maximum element
 // int sum =arr[0];
 // for(int i=0; i<=arr.length; i++){
 //     if(arr[i]>sum){
@@ -44,11 +44,11 @@ public class QuickRevision {
 
 
 // Finding minimum element
-int min =arr[0];
-for(int i=0; i<=arr.length; i++){
-    if(arr[i]>min){
-        min = arr[i];
-    }
-}System.out.println(min);
+// int min =arr[0];
+// for(int i=0; i<=arr.length; i++){
+//     if(arr[i]<min){
+//         min = arr[i];
+//     }
+// }System.out.println(min);
     }
 }
