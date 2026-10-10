@@ -50,5 +50,21 @@ public class QuickRevision {
 //         min = arr[i];
 //     }
 // }System.out.println(min);
+
+
+// counting odd even numbers
+int even=0;
+int odd=0;
+
+for(int i = 0; i < arr.length; i++) {
+    if(arr[i] % 2 == 0) {
+        even++;
+    } else {
+        odd++;
+    }
+}
+System.out.println("even numbers: "+even);
+System.out.println("odd numbers: "+odd);
+
     }
 }
