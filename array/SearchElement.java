@@ -13,15 +13,15 @@ public class SearchElement{
 
     // loop
 
-    for(int i=0; i<arr.length; i++){
+    // for(int i=0; i<arr.length; i++){
 
-      if(target == arr[i]){
+    //   if(target == arr[i]){
 
-        System.out.println("target is present in the array");
-        return;
+    //     System.out.println("target is present in the array");
+    //     return;
 
 
-      }}
-        System.out.println("target is not present in the array");
+    //   }}
+    //     System.out.println("target is not present in the array");
   }
 }
