@@ -18,7 +18,7 @@ public class MinNum{
 🟢 Level 1 — Must know
 Find largest element
 Find smallest element
-Find sum of elements
+Find sum of elements  
 Find average
 Count even/odd
 Search an element (Linear Search)
