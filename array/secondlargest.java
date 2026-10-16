@@ -11,8 +11,8 @@ public class secondlargest {
 
         for(int i=1; i<arr.length; i++){
             if(arr[i]>max){
-                second = max;
-                max = arr[i];
+                second = max;  //saves the second value before max no
+                max = arr[i]; // saves the max value
             }
         }
         System.out.println(second);
