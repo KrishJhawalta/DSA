@@ -8,10 +8,10 @@ public class simplebubble {
     for(int i=0; i<=arr.length-1; i++){
 
       for(int j=0; j<arr.length-1; j++){
-        if(arr[j]>arr[j+1]){
-          int temp =arr[j];
-          arr[j] = arr[j+1];
-          arr[j+1] = temp;
+        if(arr[j]>arr[j+1]){     //checking condition
+          int temp =arr[j];       // store value of arr[j]
+          arr[j] = arr[j+1];     // stores value of next values
+          arr[j+1] = temp;        // swap value to first comparison
         }
       }
 
