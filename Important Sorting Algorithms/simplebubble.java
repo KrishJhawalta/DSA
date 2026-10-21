@@ -15,11 +15,6 @@ public class simplebubble {
           arr[j+1] = temp;        // swap value to first comparison
         }
       }
-
-
-
     }
-
   }
-  
 }
