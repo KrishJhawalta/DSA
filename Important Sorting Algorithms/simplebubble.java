@@ -2,9 +2,10 @@ public class simplebubble {
   public static void main(String[] args) {
     
 
-    // Simple bubble;
+    // Simple bubble sort;
     
-    int [] arr = {5,4,2,1};
+    int [] arr = {5,4,2,1};    // unsorted array 
+
     for(int i=0; i<=arr.length-1; i++){
 
       for(int j=0; j<arr.length-1; j++){
