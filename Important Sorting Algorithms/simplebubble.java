@@ -8,7 +8,7 @@ public class simplebubble {
 
     for(int i=0; i<=arr.length-1; i++){
 
-      for(int j=0; j<arr.length-1; j++){
+      for(int j=0+1; j<arr.length-1; j++){
         if(arr[j]>arr[j+1]){     //checking condition
           int temp =arr[j];       // store value of arr[j]
           arr[j] = arr[j+1];     // stores value of next values
